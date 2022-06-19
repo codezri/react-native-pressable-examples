@@ -60,7 +60,7 @@ const ZoomButton = ({title, onTap}) => {
   );
 }
 
-const RotateButton = ({title, onTap}) => {
+const RotatingButton = ({title, onTap}) => {
   return (
     <Pressable
       onPress={onTap}
@@ -111,7 +111,7 @@ const App = () => {
       <PressableOpacityButton title="TouchableOpacity-like"/>
       <PressableHighlightButton title="TouchableHighlight-like"/>
       <ZoomButton title="Zoom effect"/>
-      <RotateButton title="Rotate effect"/>
+      <RotatingButton title="Rotation effect"/>
       <ComplexButton title="Complex effect"/>
     </SafeAreaView>
   );
